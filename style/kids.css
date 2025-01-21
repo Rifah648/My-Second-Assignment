@@ -86,6 +86,7 @@
     width: 30px;
     height: 24px;
     cursor: pointer;
+    margin-top: 40px;
     display: none;
 }
 .bar{
@@ -109,4 +110,118 @@
     color: black;
     font-weight: 400px;
     font-size: 1.25rem;
+}
+/* main section style */
+main{
+    max-width: 85%;
+    margin: 0 auto;
+}
+.main{
+    background-image: url(../assets/bg.png);
+}
+.main-heading{
+    font-weight: 700;
+    font-size: 2.85rem;
+    text-align: center;
+    margin-top: 60px;
+}
+.main-container{
+    display: flex;
+    gap: 24px;
+    width: 70%;
+    margin-left: 180px;
+
+
+    
+}
+.mains{
+    box-shadow:0px 6px 50px 0px whitesmoke ;
+    width: 400px;
+    height: 450px;
+    border-radius: 18.86px;
+    gap: 20px;
+    padding: 30px;
+
+    
+    
+}
+.div-color-1{
+    background: linear-gradient(#DEF5FF, #ffffff);
+    text-align: center;
+    /* padding: 30px; */
+
+}
+
+.div-color-2{
+    background: linear-gradient(#FFF4DC, #ffffff);
+    text-align: center;
+
+}
+
+.div-color-3{
+    background: linear-gradient(#F2E8FF, #ffffff);
+    text-align: center;
+
+}
+
+.main-title{
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+.main-description{
+    font-weight: 400;
+    font-size: 1rem;
+    color: #808080;
+}
+.main-1{
+    color: #64C8FF;
+    font-weight: 700;
+    font-size: 1rem;
+}
+.main-2{
+    color: #F0AA00;
+    font-weight: 700;
+    font-size: 1rem;
+}
+.main-3{
+    font-weight: 700;
+    font-size: 1rem;
+    color: #8700FF;
+}
+
+
+
+
+
+/* Responsive Related style */
+@media screen and (max-width:676px) {
+    .navbar{
+        flex-direction: row;
+    }
+    .nav-links, .school, .btn{
+        display: none;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .menu-icon{
+            flex-direction: column;
+            justify-content: space-around;
+            width: 30px;
+            height: 24px;
+            cursor: pointer;
+            margin-top: 40px;
+        
+            display: block;
+
+        
+    }
+    .bar{
+        width: 85%;
+        height: 4px;
+        background-color: #333;
+        transition: transform 0.3s ease , opacity 0.3s ease;
+        margin-top: -50px;
+    }
+    
 }
