@@ -360,12 +360,12 @@ footer{
 }
 .footer-content-1{
     display: flex;
-    gap: 300px;
+    gap: 50px;
     margin-right: 60px;
-    padding: 100px;
+    padding: 50px;
 }
 .footer-main{
-    padding: 100px;
+    padding: 50px;
 }
 .footer-content{
     display: flex;
